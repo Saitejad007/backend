@@ -1,6 +1,7 @@
 {
 	"author": "Sai Teja Devineni",
 	"description": "Backend starter project.",
+	"license": "UNLICENSED",
 	"keywords": [ "freecodecamp","starter","descriptive", "related", "words" ],
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
