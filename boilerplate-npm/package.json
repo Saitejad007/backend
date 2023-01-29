@@ -1,5 +1,6 @@
 {
 	"author": "Sai Teja Devineni",
+	"description": "Backend starter project.",
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
 		"express": "^4.14.0"
