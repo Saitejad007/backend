@@ -49,9 +49,16 @@ app.get("/:word/echo", function (req, res) {
 
 // app.route('/').get(handler).post(handler);
 
+
+
 app.route("/name").get(function (req, res) {
   res.json({ name: `${req.query.first} ${req.query.last}` });
-});
+})
+
+app.route('/name').post(function(req,res){
+  console.log(req.body)
+  res.json({name: `${req.body.first} ${req.body.last}`})
+})
 
 
 
